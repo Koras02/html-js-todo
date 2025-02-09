@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitsu</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Firebase SDK 추가 -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>애니메이션</h1>
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="애니메이션 검색" />
+        <button id="search-btn">검색하기</button>
+      </div>
+
+      <div id="search-results" class="search-results"></div>
+      <a href="todo.html" class="todo-link">List </a>
+    </div>
+    <script src="search.js"></script>
+  </body>
+</html>
